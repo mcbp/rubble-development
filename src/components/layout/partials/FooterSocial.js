@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import { FaInstagram } from "react-icons/fa";
+import { FaInstagram, FaYoutube } from "react-icons/fa";
 
 const FooterSocial = ({
   className,
@@ -18,9 +18,14 @@ const FooterSocial = ({
       className={classes}
     >
       <ul className="list-reset">
-        <li className="social-lg">
+        <li className="social-lg" style={{marginLeft: "12px;", marginRight: "12px"}}>
           <a href="https://www.instagram.com/rubbledev" target="_blank" rel="noopener noreferrer">
-            Follow us on Instagram <FaInstagram style={{marginLeft: "12px", fontSize: "18px"}}/>
+            <FaInstagram/>
+          </a>
+        </li>
+        <li className="social-lg" style={{marginLeft: "12px;", marginRight: "12px"}}>
+          <a href="https://www.youtube.com/channel/UCnfOz_B12FHZd0WjOK7ZI3g/featured" target="_blank" rel="noopener noreferrer">
+            <FaYoutube/>
           </a>
         </li>
       </ul>

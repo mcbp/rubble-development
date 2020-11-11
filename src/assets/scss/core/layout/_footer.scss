@@ -107,17 +107,20 @@
 	}
 
 	li {
-		padding: 0 $footer-social--outer-padding-h;
-		border: 2px solid get-color(primary, 1);
-		border-radius: 2px;
+		padding: 0;
+		background-color: get-color(primary, 1);
+		border-radius: 90px;
+		margin-left: 5px;
+		margin-right: 5px;
 	}
 
 	a {
 		padding: $footer-social--inner-padding;
 
 		svg {
-			fill: color-icon(social);
+			fill: get-color(dark, 1);
 			transition: fill .15s ease;
+			font-size: 24px;
 
 			.invert-color & {
 				fill: color-icon(social-inverse);
