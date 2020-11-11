@@ -19,7 +19,7 @@ const FooterSocial = ({
     >
       <ul className="list-reset">
         <li className="social-lg">
-          <a href="https://www.instagram.com/rubbledev" target="_blank">
+          <a href="https://www.instagram.com/rubbledev" target="_blank" rel="noopener noreferrer">
             Follow us on Instagram <FaInstagram style={{marginLeft: "12px", fontSize: "18px"}}/>
           </a>
         </li>
