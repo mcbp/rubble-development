@@ -1,0 +1,17 @@
+.Toastify__toast {
+  border-radius: 2px;
+  text-align: center;
+}
+
+.Toastify__toast-body {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+
+.Toastify__toast--success {
+  background-color: #009688;
+}
+
+.Toastify__toast--error {
+  background-color: #c62828;
+}
