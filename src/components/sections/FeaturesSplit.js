@@ -54,7 +54,7 @@ const FeaturesSplit = ({
 
   const sectionHeader = {
     title: 'Our App Library',
-    paragraph: 'As big fans of dodgeball, we at Rubble Development are building a suite of apps to make the sport more accessible, engaging and enjoyable .'
+    paragraph: 'As big fans of dodgeball, we at Rubble Development are building a suite of apps to make the sport more accessible, engaging and enjoyable.'
   };
 
   return (
@@ -76,8 +76,8 @@ const FeaturesSplit = ({
                   DodgeRef
                   </h3>
                 <p className="mb-24">
-                  DodgeRef has been built to make refereering dodgeball games simple and easy.
-                  Features score and time tracking, mulitple rulesets, and the ability to embed your scoreboard into a livestream.
+                  DodgeRef has been built to make refereeing dodgeball games simple and easy.
+                  Features include score and time tracking, multiple rule sets, and the ability to embed your scoreboard into a livestream.
                 </p>
                 <ButtonGroup>
                   <Button tag="a" color="dark" href="https://play.google.com/store/apps/details?id=com.dodgeref.flutterapp" target="_blank">
