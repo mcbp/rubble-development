@@ -6,7 +6,6 @@ import Image from '../elements/Image';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import { FaGooglePlay, FaGlobe } from "react-icons/fa";
-import { HiGlobeAlt } from 'react-icons/hi'
 
 const propTypes = {
   ...SectionSplitProps.types
