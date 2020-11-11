@@ -49,7 +49,7 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
-            <div className="mb-32">
+            <div className="mb-32 reveal-from-bottom">
               <Image
                 src={require('./../../assets/images/logo.png')}
                 alt="Rubble Logo"

@@ -54,7 +54,7 @@ const FeaturesSplit = ({
 
   const sectionHeader = {
     title: 'Our App Library',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    paragraph: 'As big fans of dodgeball, we at Rubble Development are building a suite of apps to make the sport more accessible, engaging and enjoyable .'
   };
 
   return (
@@ -76,8 +76,9 @@ const FeaturesSplit = ({
                   DodgeRef
                   </h3>
                 <p className="mb-24">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                  DodgeRef has been built to make refereering dodgeball games simple and easy.
+                  Features score and time tracking, mulitple rulesets, and the ability to embed your scoreboard into a livestream.
+                </p>
                 <ButtonGroup>
                   <Button tag="a" color="dark" href="https://play.google.com/store/apps/details?id=com.dodgeref.flutterapp" target="_blank">
                     <FaGooglePlay style={{marginRight: '12px'}} />Google Play
@@ -104,42 +105,6 @@ const FeaturesSplit = ({
             </div>
 
             <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Sideline Manager
-                  </div>
-                <h3 className="mt-0 mb-12">
-                  DodgeCap
-                  </h3>
-                <p className="m-0 mb-24">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
-                <ButtonGroup>
-                  <Button tag="a" color="dark" href="https://play.google.com/store/apps/details?id=com.track.coachtracker" target="_blank">
-                    <FaGooglePlay style={{marginRight: '12px'}} />Google Play
-                  </Button>
-                </ButtonGroup>
-              </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/dodgecap-01.png')}
-                  alt="DodgeCap 01"
-                  width={264}
-                  height={396} />
-                <Image
-                  src={require('./../../assets/images/dodgecap-02.png')}
-                  alt="DodgeCap 02"
-                  width={264}
-                  height={396} />
-              </div>
-            </div>
-
-            <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Stretches, Games & Drills
@@ -148,8 +113,9 @@ const FeaturesSplit = ({
                   DodgeCoach
                   </h3>
                 <p className="m-0 mb-24">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                  DodgeCoach is our curated collection of dodgeball stretches, games and drills.
+                  The app is an effective coaching tool for planning dodgeball sessions, keeping them fresh and engaging.
+                </p>
                 <ButtonGroup>
                   <Button tag="a" color="dark" href="https://play.google.com/store/apps/details?id=com.track.dodgecoach2" target="_blank">
                     <FaGooglePlay style={{marginRight: '12px'}} />Google Play
@@ -170,6 +136,43 @@ const FeaturesSplit = ({
                 <Image
                   src={require('./../../assets/images/dodgecoach-02.png')}
                   alt="DodgeCoach 02"
+                  width={264}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Sideline Manager
+                  </div>
+                <h3 className="mt-0 mb-12">
+                  DodgeCap
+                  </h3>
+                <p className="m-0 mb-24">
+                  DodgeCap was designed to make managing your team from the sideline effortless.
+                  With this app you are able to track each player's consecutive and overall sets on court so you can ensure your players are getting the right amount of game time.
+                </p>
+                <ButtonGroup>
+                  <Button tag="a" color="dark" href="https://play.google.com/store/apps/details?id=com.track.coachtracker" target="_blank">
+                    <FaGooglePlay style={{marginRight: '12px'}} />Google Play
+                  </Button>
+                </ButtonGroup>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/dodgecap-01.png')}
+                  alt="DodgeCap 01"
+                  width={264}
+                  height={396} />
+                <Image
+                  src={require('./../../assets/images/dodgecap-02.png')}
+                  alt="DodgeCap 02"
                   width={264}
                   height={396} />
               </div>
