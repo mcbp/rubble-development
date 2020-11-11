@@ -5,7 +5,8 @@ import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
-import { FaGooglePlay } from "react-icons/fa";
+import { FaGooglePlay, FaGlobe } from "react-icons/fa";
+import { HiGlobeAlt } from 'react-icons/hi'
 
 const propTypes = {
   ...SectionSplitProps.types
@@ -83,6 +84,9 @@ const FeaturesSplit = ({
                   <Button tag="a" color="dark" href="https://play.google.com/store/apps/details?id=com.dodgeref.flutterapp" target="_blank">
                     <FaGooglePlay style={{marginRight: '12px'}} />Google Play
                   </Button>
+                  <Button tag="a" color="dark" href="https://dodgeref.netlify.app" target="_blank">
+                    <FaGlobe style={{marginRight: '12px'}} />Web App
+                  </Button>
                 </ButtonGroup>
               </div>
               <div className={
@@ -119,6 +123,9 @@ const FeaturesSplit = ({
                 <ButtonGroup>
                   <Button tag="a" color="dark" href="https://play.google.com/store/apps/details?id=com.track.dodgecoach2" target="_blank">
                     <FaGooglePlay style={{marginRight: '12px'}} />Google Play
+                  </Button>
+                  <Button tag="a" color="dark" href="https://dodgecoach.netlify.app" target="_blank">
+                    <FaGlobe style={{marginRight: '12px'}} />Web App
                   </Button>
                 </ButtonGroup>
               </div>
