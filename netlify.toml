@@ -1,2 +1,2 @@
 [build]
-  command = "break please"
+  command = "npm run build"
