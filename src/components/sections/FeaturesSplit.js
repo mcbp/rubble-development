@@ -5,7 +5,7 @@ import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
-import { FaGooglePlay, FaGlobe } from "react-icons/fa";
+import { FaGooglePlay, FaGlobe, FaDesktop } from "react-icons/fa";
 
 const propTypes = {
   ...SectionSplitProps.types
@@ -85,6 +85,9 @@ const FeaturesSplit = ({
                   </Button>
                   <Button tag="a" color="dark" href="https://dodgeref.netlify.app" target="_blank">
                     <FaGlobe style={{marginRight: '12px'}} />Web App
+                  </Button>
+                  <Button tag="a" color="dark" href="https://dodge-server.herokuapp.com" target="_blank">
+                    <FaDesktop style={{marginRight: '12px'}} />Live scoreboards
                   </Button>
                 </ButtonGroup>
               </div>
