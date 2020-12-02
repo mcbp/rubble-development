@@ -58,7 +58,7 @@ const Cta = ({
 
   const sectionHeader = {
     title: 'Contact Us',
-    paragraph: 'If you have any questions or queries, pleasse fill out the form below and we will be in touch soon.'
+    paragraph: 'If you have any questions or queries, please fill out the form below and we will be in touch soon.'
   };
 
   const validateForm = () => {
