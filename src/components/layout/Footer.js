@@ -46,7 +46,7 @@ const Footer = ({
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             {/*<FooterNav />*/}
             <FooterSocial />
-            <div className="footer-copyright">© 2020 <a href="https://rubbledev.net">Rubble Development</a>. All rights reserved.</div>
+            <div className="footer-copyright">© {(new Date().getFullYear())} <a href="https://rubbledev.net">Rubble Development</a>. All rights reserved.</div>
           </div>
         </div>
       </div>
