@@ -10,11 +10,11 @@ const Home = () => {
 
   return (
     <>
-      <Hero className="illustration-section-01 h-full body-wrap" />
+      <Hero className="illustration-section-01 h-full body-wrap" id="home"/>
       {/*<FeaturesTiles />*/}
       <FeaturesSplit topDivider className="illustration-section-02" id="app-list" />
       {/*<Testimonial topDivider />*/}
-      <Cta topDivider />
+      <Cta topDivider id="contact-us" />
     </>
   );
 }
