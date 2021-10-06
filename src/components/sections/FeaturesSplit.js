@@ -54,7 +54,7 @@ const FeaturesSplit = ({
 
   const sectionHeader = {
     title: 'Our App Library',
-    paragraph: 'As big fans of dodgeball, at Rubble Development we are building a suite of apps to make the sport more accessible, engaging and enjoyable.'
+    paragraph: 'As both dodgeball players and fans of the sport, at Rubble Development we are building a suite of apps to make the sport more accessible, engaging and enjoyable.'
   };
 
   return (
@@ -77,7 +77,8 @@ const FeaturesSplit = ({
                   </h3>
                 <p className="mb-24">
                   DodgeRef has been built to make refereeing dodgeball games simple and easy.
-                  Features include score and time tracking, multiple rule sets, and the ability to embed your scoreboard into a livestream.
+                  Features include score and timer management, multiple rule sets, and the ability to embed your scoreboard into a livestream.
+                  The system can also be used to run a courtside scoreboard or to update tournament standings or league tables as a game is ongoing.
                 </p>
                 <ButtonGroup>
                   <Button tag="a" color="dark" href="https://play.google.com/store/apps/details?id=com.dodgeref.flutterapp" target="_blank">
@@ -120,7 +121,7 @@ const FeaturesSplit = ({
                   </h3>
                 <p className="m-0 mb-24">
                   DodgeCoach is our curated collection of dodgeball stretches, games and drills.
-                  The app is an effective coaching tool for planning dodgeball sessions, keeping them fresh and engaging.
+                  The app is a coaching tool for creating and sharing dodgeball session plans, to keep them fresh and engaging for players.
                 </p>
                 <ButtonGroup>
                   <Button tag="a" color="dark" href="https://play.google.com/store/apps/details?id=com.track.dodgecoach2" target="_blank">
