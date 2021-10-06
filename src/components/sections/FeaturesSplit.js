@@ -154,20 +154,15 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Sideline Manager
+                  Player Analysis
                   </div>
                 <h3 className="mt-0 mb-12">
-                  DodgeCap
+                  DodgeStat
                   </h3>
                 <p className="m-0 mb-24">
-                  DodgeCap was designed to make managing your team from the sideline effortless.
-                  With this app you are able to track each player's consecutive and overall sets on court so you can ensure your players are getting the right amount of game time.
+                  DodgeStat was designed to track player performance both in individual games as well as over the course of a season.
+                  The app breaks performance down to four metrics: Catch, Throw and Dodge stat along with an overall calculated performance rating.
                 </p>
-                <ButtonGroup>
-                  <Button tag="a" color="dark" href="https://play.google.com/store/apps/details?id=com.track.coachtracker" target="_blank">
-                    <FaGooglePlay style={{marginRight: '12px'}} />Google Play
-                  </Button>
-                </ButtonGroup>
               </div>
               <div className={
                 classNames(
