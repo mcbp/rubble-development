@@ -54,7 +54,7 @@ const FeaturesSplit = ({
 
   const sectionHeader = {
     title: 'Our App Library',
-    paragraph: 'As big fans of dodgeball, we at Rubble Development are building a suite of apps to make the sport more accessible, engaging and enjoyable.'
+    paragraph: 'As big fans of dodgeball, at Rubble Development are building a suite of apps to make the sport more accessible, engaging and enjoyable.'
   };
 
   return (
